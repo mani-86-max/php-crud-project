@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'dbconfig.php';
+ require_once include 'dbconfig.php';
 include 'includes/header.php';
 
 // Handle login form submission

@@ -1,6 +1,6 @@
 <?php
+session_start()
 include 'dbconfig.php';
-
 // Ensure 
 if (!isset($_SESSION['user'])) {
   header("Location: login.php");

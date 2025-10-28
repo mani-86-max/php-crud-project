@@ -1,0 +1,7 @@
+# Ignore uploaded files and sensitive configs
+uploads/
+dbconfig.php
+config.php
+.env
+/vendor/
+/node_modules/
